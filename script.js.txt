@@ -1,0 +1,11 @@
+function generarFrase() {
+  const frases = [
+    "Cree en ti y todo será posible.",
+    "El único límite es tu mente.",
+    "Hoy es un buen día para empezar algo nuevo.",
+    "Tu esfuerzo de hoy es tu éxito de mañana.",
+    "Sigue adelante, los grandes comienzos nacen del intento."
+  ];
+  const frase = frases[Math.floor(Math.random() * frases.length)];
+  document.getElementById("frase").innerText = frase;
+}

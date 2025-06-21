@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mi Web Personal con IA</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Hola, soy [Tu Nombre]</h1>
+    <p>Apasionado por la tecnología y la edición de video.</p>
+  </header>
+
+  <section id="ia-section">
+    <h2>🤖 Generador de Frases con IA</h2>
+    <button onclick="generarFrase()">Generar frase</button>
+    <p id="frase">Aquí aparecerá tu frase motivadora...</p>
+  </section>
+
+  <section id="servicios">
+    <h2>🎥 Servicios de Edición de Video</h2>
+    <ul>
+      <li>✅ Edición de reels y TikToks - desde $5</li>
+      <li>✅ Montaje de videos largos para YouTube</li>
+      <li>✅ Subtítulos, música, efectos y más</li>
+    </ul>
+    <p>Contáctame en: <a href="mailto:tucorreo@gmail.com">tucorreo@gmail.com</a> o <a href="https://wa.me/XXXXXXXXXXX">WhatsApp</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 - Hecho por [Tu Nombre]. Si te gustó, puedes <a href="https://ko-fi.com">invitarme un café ☕</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
